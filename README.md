@@ -11,7 +11,7 @@ Susumu OTA
 https://github.com/wbap/oculoenv/blob/master/README.md#tasks より引用。
 
 ### Point to taget
-https://github.com/wbap/oculoenv/raw/master/docs/images/point_to_target_task.png
+
 ![point to target task](https://github.com/wbap/oculoenv/raw/master/docs/images/point_to_target_task.png)
 
 > The agent is required to move the gaze point to the target (small or large E) with avoinding the lure object (small or large rotated E).
