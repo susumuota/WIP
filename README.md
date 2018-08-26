@@ -24,7 +24,7 @@ https://github.com/wbap/oculoenv/blob/master/README.md#tasks より引用。
 
 > The agent is required to detect whether the combination of objects are changed after the blank period. If objects are changed agent should choose left black target and otherwise should choose right.
 
-記憶モデルが必要。ターゲットはステップ数ではなく実時間で変化する。
+記憶モデルが必要。
 
 ### Visual search
 
@@ -39,7 +39,7 @@ If there is, the agent should choose right bottom black target and otherwise lef
 
 > The agent is required to move the gaze point to the target which has different property from others (color, shape or movement).
 
-色や形の変わったターゲットについては、おそらく従来のCNNでもある程度検出可能。運動するターゲットについては時間軸に関するモデルが必要。サリエンシーマップで対応可能か？運動するターゲットはステップ数ではなく実時間で変化する。
+色や形の変わったターゲットについては、おそらく従来のCNNでもある程度検出可能。運動するターゲットについては時間軸に関するモデルが必要。サリエンシーマップで対応可能か？
 
 単純なA2C+CNNで学習させると8時間学習させても収束せず(精度はランダムの2倍程度)。
 
@@ -71,6 +71,14 @@ https://github.com/wbap/oculoenv
 
 - Psychlab
 https://arxiv.org/abs/1801.08116
+
+## サリエンシーマップ
+
+- サリエンシー・マップの視覚探索解析への応用
+https://www.jstage.jst.go.jp/article/jnns/21/1/21_3/_pdf/-char/ja
+
+- How is visual salience computed in the brain? Insights from behaviour,neurobiology and modelling
+http://rstb.royalsocietypublishing.org/content/royptb/372/1714/20160113.full.pdf
 
 ## 外部記憶
 
